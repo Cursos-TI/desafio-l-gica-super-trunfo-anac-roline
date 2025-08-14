@@ -26,7 +26,7 @@ int main() {
 
     printf("--- Simulador de Batalha de Territorios do War ---\n");
     printf("Quantos territorios voce deseja criar? ");
-    scanf("%d", &d_numTerritorios);
+    scanf("%d", &numTerritorios);
     // Limpa o buffer do teclado após a leitura do número
     while (getchar() != '\n');
     
